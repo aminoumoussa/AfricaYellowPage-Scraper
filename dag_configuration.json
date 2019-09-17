@@ -1,0 +1,18 @@
+{
+  "name": "Africa_YellowPage_Scraper_DAG",
+  "schedule": "@once",
+  "docker_url": "",
+  "docker_command": "Internet Morocco --file_path=/usr/local/airflow/scraped_data/data.csv",
+  "args" = {
+        'owner': 'airflow',
+        'depends_on_past': False,
+        'start_date': datetime.now(),
+        'email': ['aminou455@yahoo.fr'],
+        'email_on_failure': False,
+        'email_on_retry': False,
+        'retries': 1,
+        'retry_delay': timedelta(minutes=5),
+        'concurrency': 2,
+        'max_active_runs': 1
+    }
+}
