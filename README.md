@@ -18,7 +18,7 @@ pip install -e .
 ```python
 """
 Usage:
-    africayellowpage_scraper mine <what> <where> [--file_path=<destination_file>]
+    africayellowpage-scraper mine <what> <where> [--file_path=<destination_file>]
 
 Options:
     <what>    Qui,quoi? (Hotels)
