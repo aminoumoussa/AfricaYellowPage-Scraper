@@ -3,7 +3,7 @@ Usage:
     africayellowpage_scraper mine <what> <where> [--file_path=<destination_file>]
 
 Options:
-    <what>    Qui,quoi? (raison sociale ou activité)
+    <what>    Qui,quoi? (Hotels)
     <where>        Où? (Ghana)   
     --file_path file to save results to 
 """
